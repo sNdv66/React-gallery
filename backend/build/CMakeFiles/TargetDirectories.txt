@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/crow/backend/build/CMakeFiles/server.dir
+/data/data/com.termux/files/home/crow/backend/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/crow/backend/build/CMakeFiles/rebuild_cache.dir

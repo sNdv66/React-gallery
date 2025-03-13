@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -O2 -march=native -pipe -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/server.dir/link.d CMakeFiles/server.dir/main.cpp.o -o server  /data/data/com.termux/files/usr/lib/libsqlite3.so /data/data/com.termux/files/usr/lib/libboost_filesystem.so /data/data/com.termux/files/usr/lib/libboost_atomic.so

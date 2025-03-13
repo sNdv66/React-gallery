@@ -1,0 +1,64 @@
+/* Style Default */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* Tombol */
+.buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  color: #007bff;
+}
+
+/* Mode Gelap */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.header.dark-mode {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.header.dark-mode .buttons button {
+  color: white;
+}
+
+.header.dark-mode .buttons button:hover {
+  color: #ffcc00;
+}

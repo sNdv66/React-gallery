@@ -1,0 +1,73 @@
+/* Style dasar toast */
+.Toastify__toast {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  min-width: 280px;
+  max-width: 350px;
+}
+
+/* Animasi masuk lebih smooth */
+.Toastify__bounce-enter {
+  animation: slideIn 0.8s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Animasi keluar lebih smooth */
+.Toastify__bounce-exit {
+  animation: fadeOut 0.5s ease-in-out;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+/* Style untuk sukses */
+.Toastify__toast--success {
+  background-color: #4caf50; /* Hijau */
+  color: white;
+  
+}
+
+/* Style untuk error */
+.Toastify__toast--error {
+  background-color: #f44336; /* Merah */
+  color: white;
+}
+
+/* Style untuk warning */
+.Toastify__toast--warning {
+  background-color: #ff9800; /* Kuning */
+  color: white;
+}
+
+/* Style untuk info */
+.Toastify__toast--info {
+  background-color: #2196f3; /* Biru */
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .Toastify__toast {
+    min-width: auto;
+    width: 90%;
+  }
+}
